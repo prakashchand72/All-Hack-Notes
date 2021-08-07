@@ -21,10 +21,13 @@ Try using basic login bypass sql technique:
 
 --> username: ' or 1=1 --
     password: {anything}
+    
+    
 ![image](https://user-images.githubusercontent.com/84837928/128609144-d59ae504-4c5c-41cb-88d8-75d2064d20d1.png)
 
 
 turn on burp proxy and enter any random name : 
+
  ![image](https://user-images.githubusercontent.com/84837928/128608666-cc4cb730-b24e-4b5f-9a0c-e5eced9e1081.png)
  
 once you search , on burp intercept , do right click and save it 
@@ -36,6 +39,8 @@ remember the location :
 ![image](https://user-images.githubusercontent.com/84837928/128608794-5aaf1d20-071e-4506-a457-34a933c5f0d4.png)
 
 cd to the directory that you save and fire up the command 
+
+
 -->sqlmap -r santa.panel --tamper=space2comment --dump-all --dbms sqlite
 
 ![image](https://user-images.githubusercontent.com/84837928/128608848-dbadb34d-2b5b-4544-8406-813779094a24.png)
@@ -64,6 +69,7 @@ once scan finished you might find this :
 ![image](https://user-images.githubusercontent.com/84837928/128608973-a5ffb4ab-b926-4c55-900c-adc59a6ba7b6.png)
 
 ![image](https://user-images.githubusercontent.com/84837928/128608980-4a9c8531-4bb2-40b7-a801-d3f862eca3b0.png)
+
 --> EhCNSWzzFP6sc7gB
 
 ----------------All the answers are found on one single scan------------------
