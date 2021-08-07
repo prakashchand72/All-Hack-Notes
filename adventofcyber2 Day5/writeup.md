@@ -21,8 +21,8 @@ Try using basic login bypass sql technique:
 
 --> username: ' or 1=1 --
     password: {anything}
-    
-    ![image](https://user-images.githubusercontent.com/84837928/128608607-35bc5946-c52b-4f3b-92f3-548d1ccdbae7.png)
+![image](https://user-images.githubusercontent.com/84837928/128609144-d59ae504-4c5c-41cb-88d8-75d2064d20d1.png)
+
 
 turn on burp proxy and enter any random name : 
  ![image](https://user-images.githubusercontent.com/84837928/128608666-cc4cb730-b24e-4b5f-9a0c-e5eced9e1081.png)
