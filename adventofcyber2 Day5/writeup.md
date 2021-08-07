@@ -20,7 +20,9 @@ once you visit the panel you find login panel like this :
 Try using basic login bypass sql technique:
 
 --> username: ' or 1=1 --
-    password: {anything}
+    
+    
+   password: {anything}
     
     
 ![image](https://user-images.githubusercontent.com/84837928/128609144-d59ae504-4c5c-41cb-88d8-75d2064d20d1.png)
