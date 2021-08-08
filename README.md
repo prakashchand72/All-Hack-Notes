@@ -1,11 +1,12 @@
-# Try-Hack-Me
-<script src="https://tryhackme.com/badge/327365"></script>
-
-#Hey , I am Prakash Chand Thakuri 
-    a Hacker
+#Hey , I am Prakash Chand Thakuri
+    A Hacker
 ---------------------------------------------
     CTF player 
 ----------------------------------------------
     Security Researcher 
  ---------------------------------
     Programmer
+
+-------------------------------------------------
+**`you will get all the walk through and CTF write up of Try Hack Me here`**
+
