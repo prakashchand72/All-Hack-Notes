@@ -1,4 +1,8 @@
-    https://tryhackme.com/room/adventofcyber2 Day 6
+    https://tryhackme.com/room/adventofcyber2
+ 
+`Day 6`
+
+
 ![img_1.png](img_1.png)
 
     nivigate to {machineip:5000} where web server is running
