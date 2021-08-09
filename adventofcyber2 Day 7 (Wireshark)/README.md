@@ -53,7 +53,7 @@
 `Hint made this too easy `
 `now just run that command on search`
 
-    tcp.port = 21
+    tcp.port == 21
 ![img_9.png](Images/img_9.png)    
 
 `on packet 28 we got our answer`
