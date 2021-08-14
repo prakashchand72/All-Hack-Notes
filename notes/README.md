@@ -123,6 +123,7 @@
 	/usr/share/john/ssh2john.py id_rsa > id_rsa.john 
 
 `then`
+
        john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa.john
 
 `ssh2johnhash`
