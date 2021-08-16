@@ -126,6 +126,10 @@
 
        john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa.john
 
+`john for hash`
+	
+	john --format=raw-sha1 hash
+
 `ssh2johnhash`
 
 	chmod 666 id_rsa #change mode to initial RSA private key file
