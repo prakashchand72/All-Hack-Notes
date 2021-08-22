@@ -180,5 +180,15 @@
 
 	sqlmap -u http://10.10.71.73 --forms --tamper=space2comment --dump-all -dbms sqlite
 
+----------------------------------------------------------------------------------------------------------------
+`steghide`
+
+	steghide extract -sf brooklyn99.jpg
+	
+`stegcracker`
+	
+	stegcracker brooklyn99.jpg  /usr/share/SecLists/Passwords/Leaked-Databases/rockyou.txt
+
+-------------------------------------------------------------------------------------------------------------------
 
 # @cc github.com/prakashchand72
