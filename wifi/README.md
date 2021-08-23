@@ -22,7 +22,7 @@
     
  `!1st Window:
 !Make sure you replace the channel number and bssid with your own
-!Replace hack1 with your file name like capture1 or something `
+!Replace handshake with your file name like capture1 or something `
 
     sudo airodump-ng -w /home/astute/temp/handshake -c 1 --bssid B8:C1:A2:2E:39:14 wlp2s0mon
   
