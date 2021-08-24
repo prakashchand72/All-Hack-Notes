@@ -191,4 +191,35 @@
 
 -------------------------------------------------------------------------------------------------------------------
 
+`Network File System (NFS) `
+
+`Know mount location` 
+
+	 sudo showmount -e 'machine-ip'
+
+`to mount the file`
+
+	sudo mount -t nfs 'machine-ip':/opt/conf /tmp/mountme
+
+`note` `/opt/conf/ is mount location` `and` `/tmp/mountme` `is where you want to save file`
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+`Redis`
+
+	redis-cli ip_here  -a password_here
+
+`command for redis interface`
+	
+	keys * for ls
+	get 'filename' for cat
+
+`for more`
+
+	https://redis.io/commands
+
+
 # @cc github.com/prakashchand72
+
+
