@@ -189,6 +189,11 @@
 	
 	stegcracker brooklyn99.jpg  /usr/share/SecLists/Passwords/Leaked-Databases/rockyou.txt
 
+`binwalk`
+
+	binwalk -e file.jpg
+
+
 -------------------------------------------------------------------------------------------------------------------
 
 `Network File System (NFS) `
