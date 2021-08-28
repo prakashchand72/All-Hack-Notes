@@ -132,7 +132,7 @@
 
 `ssh2johnhash`
 
-	chmod 666 id_rsa #change mode to initial RSA private key file
+	chmod 600 id_rsa #change mode to initial RSA private key file
 
 `for ssh connection`
 
