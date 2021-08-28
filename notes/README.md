@@ -56,7 +56,11 @@
 
 	find / -perm -u=s -type f 2>/dev/null
 
+`Search root flag`
 
+	find / -name root.txt
+	
+	
 ----------------------------------------------------------------------------------------------
 
 `Download From Reverse Shell`
