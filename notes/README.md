@@ -227,6 +227,10 @@
 `for more`
 
 	https://redis.io/commands
+	
+`mysql`
+
+	sudo mysql -h 10.10.229.126 -u root -p
 
 
 # @cc github.com/prakashchand72
