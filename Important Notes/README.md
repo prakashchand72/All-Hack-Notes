@@ -271,7 +271,7 @@ LFI
 	
 Searching in Windows Machine
 	
-	dir flag* /s /p
+	dir flag*.txt /s /p
 
 # @cc github.com/prakashchand72
 
