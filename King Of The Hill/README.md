@@ -4,7 +4,7 @@ Stragegy
 
 Scan 
 
-`do rustscan than namp` 
+`do rustscan than nmap` 
  `rustscan gives quicker scan result`
  
  backdoor 
