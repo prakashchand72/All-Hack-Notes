@@ -26,7 +26,7 @@ Scan
  
       chattr -R +i .ssh
       
- `now you likely to do is to delete the chattr binary from /etc/bin so that no one can make it mutable again`
+ `now you likely to do is to delete the chattr binary from /usr/bin so that no one can make it mutable again`
  
  *Ultimate Defences*
  
