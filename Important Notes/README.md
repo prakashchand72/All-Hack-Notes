@@ -273,6 +273,25 @@ Searching in Windows Machine
 	
 	dir flag*.txt /s /p
 
+Make file immutable
+
+	chattr +i filename.txt
+Make mutable
+
+	chattr -i filename.txt
+
+Broadcast message on ssh
+	
+	wall messagehere
+
+while loop to echo name on king.txt
+
+	while true;do echo "king.txt" > /root/king.txt;done
+
+To Jam ssh shell (Custom Exploit Own)
+
+	while true;do wall "prakashchand72 is the king" ;done
+
 # @cc github.com/prakashchand72
 
 
