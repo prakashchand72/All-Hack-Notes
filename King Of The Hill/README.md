@@ -1,6 +1,7 @@
 Stragegy 
 
 `try to get into root and echo your name on king.txt` `this gives you contant point which is better than finding flag`
+
 Scan 
 
 `do rustscan than namp` 
