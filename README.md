@@ -9,5 +9,5 @@ __________________________________________________
     Programmer
 
 -------------------------------------------------
-**`you will get all the walk through and CTF write up of Try Hack Me here`**
+**`you will get all Hacking Notes and CTF writeups HERE!`**
 
