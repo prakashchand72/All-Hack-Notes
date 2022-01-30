@@ -100,7 +100,7 @@
 `sql injection` 
 `login bypass`
 
-	 username: ' or 1=1 --
+	 username: ' or 1=1 -- or sometime : admin'#
 	 password: anything
 
 ---------------------------------------------------------------------------------------------------
