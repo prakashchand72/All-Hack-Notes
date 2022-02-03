@@ -296,6 +296,13 @@ use Pwnkit for prevEsc
 
 	https://github.com/ly4k/PwnKit
 
+PrevEsc
+
+`Try PwnKit to exploit`
+
+	https://github.com/ly4k/PwnKit
+	
+	
 # @cc github.com/prakashchand72
 
 
