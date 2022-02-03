@@ -291,6 +291,10 @@ while loop to echo name on king.txt
 To Jam ssh shell (Custom Exploit Own)
 
 	while true;do wall "prakashchand72 is the king" ;done
+	
+use Pwnkit for prevEsc 
+
+	https://github.com/ly4k/PwnKit
 
 # @cc github.com/prakashchand72
 
