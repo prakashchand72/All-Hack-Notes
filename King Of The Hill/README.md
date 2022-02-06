@@ -95,6 +95,9 @@ Breaking the Defence
 *Unbreakable Defence own exploit*
 
     while true; do "prakashchand72 is the king"; done 
-    
+ 
+ **Ultimate Privilage Escalation Exploit**
+ 
+ `PwnKit`
     
  cc@ prakashchand72 
