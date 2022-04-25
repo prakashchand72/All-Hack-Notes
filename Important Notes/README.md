@@ -301,7 +301,12 @@ PrevEsc
 `Try PwnKit to exploit`
 
 	https://github.com/ly4k/PwnKit
+
+scp to copy from remote ssh to local machine 
+
+`scp command`
 	
+	scp james@10.10.102.96:/home/james/Alien_autospy.jpg{path of remote machine} /home/kali/test/test1{path of local machine}
 	
 # @cc github.com/prakashchand72
 
