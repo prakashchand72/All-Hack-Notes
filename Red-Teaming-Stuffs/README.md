@@ -2,7 +2,7 @@
 
 ```
   powershell -ex bypass -File .\sample.ps1
-``
+```
 
 #can also be come with
 
