@@ -44,3 +44,29 @@ Surname           :
 UserPrincipalName :
 
 ```
+**Check antivirus which and how many**\
+
+  PS C:\Users\thm> wmic /namespace:\\root\securitycenter2 path antivirusproduct
+  
+_can also be done with another command_ 
+
+```
+PS C:\Users\thm> Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct
+
+
+displayName              : Bitdefender Antivirus
+instanceGuid             : {BAF124F4-FA00-8560-3FDE-6C380446AEFB}
+pathToSignedProductExe   : C:\Program Files\Bitdefender\Bitdefender Security\wscfix.exe
+pathToSignedReportingExe : C:\Program Files\Bitdefender\Bitdefender Security\bdservicehost.exe
+productState             : 266240
+timestamp                : Wed, 15 Dec 2021 12:40:10 GMT
+PSComputerName           :
+
+displayName              : Windows Defender
+instanceGuid             : {D58FFC3A-813B-4fae-9E44-DA132C9FAA36}
+pathToSignedProductExe   : windowsdefender://
+pathToSignedReportingExe : %ProgramFiles%\Windows Defender\MsMpeng.exe
+productState             : 393472
+timestamp                : Fri, 15 Oct 2021 22:32:01 GMT
+PSComputerName           :
+```
