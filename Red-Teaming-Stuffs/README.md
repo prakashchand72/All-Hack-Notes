@@ -70,3 +70,57 @@ productState             : 393472
 timestamp                : Fri, 15 Oct 2021 22:32:01 GMT
 PSComputerName           :
 ```
+To check status of antivirus
+
+_for specific output like realtime_
+```
+PS C:\Users\thm> Get-MpComputerStatus | select RealTimeProtectionEnabled
+
+RealTimeProtectionEnabled
+-------------------------
+                    False
+```
+_for all output of antivirus_
+
+```
+PS C:\Users\thm> Get-MpComputerStatus
+```
+
+for firewall 
+```
+PS C:\Users\thm> Get-NetFirewallProfile | Format-Table Name, Enabled
+
+Name    Enabled
+----    -------
+Domain     True
+Private    True
+Public     True
+```
+to disable the firewall
+
+```
+PS C:\Windows\system32> Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False
+PS C:\Windows\system32> Get-NetFirewallProfile | Format-Table Name, Enabled
+---- -------
+Domain False
+Private False
+Public False
+```
+
+to get firewall rules
+
+```
+PS C:\Users\thm> Get-NetFirewallRule | select DisplayName, Enabled, Description
+
+DisplayName                                                                  Enabled
+-----------                                                                  -------
+Virtual Machine Monitoring (DCOM-In)                                           False
+Virtual Machine Monitoring (Echo Request - ICMPv4-In)                          False
+Virtual Machine Monitoring (Echo Request - ICMPv6-In)                          False
+Virtual Machine Monitoring (NB-Session-In)                                     False
+Virtual Machine Monitoring (RPC)                                               False
+SNMP Trap Service (UDP In)                                                     False
+SNMP Trap Service (UDP In)                                                     False
+Connected User Experiences and Telemetry                                        True
+Delivery Optimization (TCP-In)                                                  True
+```
