@@ -137,3 +137,20 @@ PS C:\Users\thm> Get-EventLog -List
   20,480      0 OverwriteAsNeeded       4,345 System
   15,360      0 OverwriteAsNeeded       1,692 Windows PowerShell
 ```
+To get all the installed application and it's version
+
+```
+PS C:\Users\thm> wmic product get name,version
+Name                                                            Version
+Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.28.29910     14.28.29910
+AWS Tools for Windows                                           3.15.1248
+Amazon SSM Agent                                                3.0.529.0
+aws-cfn-bootstrap                                               2.0.5
+AWS PV Drivers                                                  8.3.4
+Microsoft Visual C++ 2019 X64 Additional Runtime - 14.28.29910  14.28.29910
+```
+To see hidden directory/files 
+
+```
+PS C:\Users\thm> Get-ChildItem -Hidden -Path C:\Users\kkidd\Desktop\
+```
