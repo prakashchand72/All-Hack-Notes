@@ -124,3 +124,16 @@ SNMP Trap Service (UDP In)                                                     F
 Connected User Experiences and Telemetry                                        True
 Delivery Optimization (TCP-In)                                                  True
 ```
+To see avaiable event log option through powershell
+```
+PS C:\Users\thm> Get-EventLog -List
+
+  Max(K) Retain OverflowAction        Entries Log
+  ------ ------ --------------        ------- ---
+     512      7 OverwriteOlder             59 Active Directory Web Services
+  20,480      0 OverwriteAsNeeded         512 Application
+     512      0 OverwriteAsNeeded         170 Directory Service
+ 102,400      0 OverwriteAsNeeded          67 DNS Server
+  20,480      0 OverwriteAsNeeded       4,345 System
+  15,360      0 OverwriteAsNeeded       1,692 Windows PowerShell
+```
