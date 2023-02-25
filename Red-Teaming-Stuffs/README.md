@@ -74,7 +74,7 @@ To check status of antivirus
 
 _for specific output like realtime_
 ```
-PS C:\Users\thm> Get-MpComputerStatus | select RealTimeProtectionEnabled
+PS C:\Users\thm> Get-MpComputerStatus | select RealTimeProtectionEnabled  (mppreference if not worked ) 
 
 RealTimeProtectionEnabled
 -------------------------
@@ -167,7 +167,7 @@ netstat -aon
 
 ```
 
-_you can also you `findstr` to find specific port on listening like `netstat -aon | findstr "22"`_
+_you can also use `findstr` to find specific port on listening like `netstat -aon | findstr "22"`_
 
 
 To find which service on path running on port 
@@ -190,6 +190,12 @@ DNS Zone Transer
 dig -t AXFR redteam.thm @10.10.243.185
 ```
 to check avaible shamba share 
+
 ```
 net share
 ```
+
+to check network event
+
+```
+/opt/snmpcheck/snmpcheck.rb $IP -c COMMUNITY_STRING
