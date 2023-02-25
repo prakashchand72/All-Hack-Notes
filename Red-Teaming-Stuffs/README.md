@@ -154,3 +154,8 @@ To see hidden directory/files
 ```
 PS C:\Users\thm> Get-ChildItem -Hidden -Path C:\Users\kkidd\Desktop\
 ```
+
+To check windows services 
+
+  net start
+
