@@ -189,3 +189,7 @@ DNS Zone Transer
 ```
 dig -t AXFR redteam.thm @10.10.243.185
 ```
+to check avaible shamba share 
+```
+net share
+```
