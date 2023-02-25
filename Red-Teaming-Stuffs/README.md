@@ -160,6 +160,23 @@ To check windows services
 ```
 net start
 ```
+To Listening ports 
+
+```
+netstat -aon
+
+```
+
+_you can also you `findstr` to find specific port on listening like `netstat -aon | findstr "22"_
+
+
+To find which service on path running on port 
+
+```
+tasklist /svc /FI "PID eq <pidnumber>"
+```
+
+
 To check users 
 
 ```
