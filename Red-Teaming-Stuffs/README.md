@@ -185,3 +185,7 @@ net user
 
 You can discover the available groups using `net group` if the system is a Windows Domain Controller or `net localgroup` otherwise,
 
+DNS Zone Transer 
+```
+dig -t AXFR redteam.thm @10.10.243.185
+```
