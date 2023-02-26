@@ -205,3 +205,8 @@ To check powershell history / remember to use below command on command prompt on
 ```
 type %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
 ```
+To check saved Credentials
+
+```
+cmdkey /list
+```
