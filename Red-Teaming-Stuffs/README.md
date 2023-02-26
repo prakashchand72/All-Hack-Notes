@@ -217,11 +217,11 @@ runas /savecred /user:userfromsavedcreds cmd.exe
 ```
 
 IIS configuraiton ( web server to see saved creds) 
-```
-type C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config | findstr connectionString
-```
-Retrieve Credentials from Software: PuTTY
 
+```type C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config | findstr connectionString
+```
+
+Retrieve Credentials from Software: PuTTY
 ```
 reg query HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\ /f "Proxy" /s
 ```
