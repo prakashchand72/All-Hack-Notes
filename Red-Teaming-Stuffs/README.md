@@ -229,3 +229,14 @@ Retrieve Credentials from Software: PuTTY
 ```
 reg query HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\ /f "Proxy" /s
 ```
+To Check Permission of file 
+
+```
+icacls c:\tasks\schtask.bat
+```
+
+To seee the schedular tasks 
+
+```
+schtask
+```
