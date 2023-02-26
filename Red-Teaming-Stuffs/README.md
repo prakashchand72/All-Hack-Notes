@@ -199,3 +199,9 @@ to check network event
 
 ```
 /opt/snmpcheck/snmpcheck.rb $IP -c COMMUNITY_STRING
+
+To check powershell history / remember to use below command on command prompt only 
+
+```
+type %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+```
