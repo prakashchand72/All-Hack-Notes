@@ -200,6 +200,8 @@ to check network event
 ```
 /opt/snmpcheck/snmpcheck.rb $IP -c COMMUNITY_STRING
 
+```
+
 To check powershell history / remember to use below command on command prompt only 
 
 ```
@@ -219,7 +221,8 @@ runas /savecred /user:userfromsavedcreds cmd.exe
 
 IIS configuraiton ( web server to see saved creds) 
 
-```type C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config | findstr connectionString
+```
+type C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config | findstr connectionString
 ```
 
 Retrieve Credentials from Software: PuTTY
