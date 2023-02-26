@@ -238,7 +238,7 @@ icacls c:\tasks\schtask.bat
 To seee the schedular tasks 
 
 ```
-schtask
+schtasks
 ```
 To add to schedular task if have approprite permmsion 
 
